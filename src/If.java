@@ -5,6 +5,8 @@ public class If {
       System.out.println("yes, correct.");
     } else if(myInt>20){
       System.out.println("no, incorrect.");
+    } else{
+      System.out.println("none of the options");
     }
   }
 }
