@@ -6,12 +6,16 @@ public class ClassesAndObjects {
     //System.out.println("My name is "+person1.name+", "+"I am "+person1.age+"years old");
     person1.sayHello();
     person1.speak();
-  
+    
     Person person2 = new Person();
     person2.name = "Vova";
     person2.age = 20;
+    person2.calculate
     //System.out.println("My name is "+person2.name+", "+"I am "+person2.age+"years old");
     // person2.speak();
+    
+    int year1 = person1.calculateYearsToRetirement();
+    int year2 = person2.calculateYearsToRetirement();
     
   }
 }
@@ -24,6 +28,12 @@ class Person{
   // 2. Actions, which he can perform (functions)
   String name;
   int age;
+
+  int calculateYearsToRetirement(){
+    int years = 65-age;
+    return years;
+  }
+  
   void speak(){
     for(int i = 0; i<3; i++){
      System.out.println("My name is "+name+", I am "+age+" years old."); 
