@@ -9,8 +9,9 @@ public class Input {
     String s = "string";
     String new = new String("default way of object initialization");
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Enter something");
-    String string = scanner.nextLine();    // reads strings of one line until enter is entered
-    System.out.println("You entered: "+string);
+    System.out.println("Enter some number");
+    //String string = scanner.nextLine();    // reads strings of one line until enter is entered
+    int x = scanner.nextInt();
+    System.out.println("You entered: "+x);
   }
 }
