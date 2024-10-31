@@ -22,6 +22,5 @@ public class Multidimensional_arrays {
     strings[0][1] = "Hello";
     System.out.println(strings[0][1]);
 
-  
   }
 }
