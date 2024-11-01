@@ -16,6 +16,8 @@ public class ClassesAndObjects {
     
     int year1 = person1.calculateYearsToRetirement();
     int year2 = person2.calculateYearsToRetirement();
+    System.out.println("The person 1 has this number of years until retirement: " + year1 + "years.");
+    System.out.println("The person 2 has this number of years until retirement: " + year2 + "years.");
     
   }
 }
