@@ -30,7 +30,11 @@ class Person{
   // 2. Actions, which he can perform (functions)
   String name;
   int age;
-
+  
+  void setName(String userName){
+    name = userName;
+  }
+  
   int calculateYearsToRetirement(){
     int years = 65-age;
     return years;
