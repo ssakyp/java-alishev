@@ -14,7 +14,7 @@ public class Variables {
     char c = 'a';
     boolean b = true;
 
-    byte myByte = 
+    byte myByte = 1;
     
     
     System.out.println(myInt);

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Input {
   public static void main(String[] args) {
     String s = "string";
-    String new = new String("default way of object initialization");
+    String s2 = new String("default way of object initialization");
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter some number");
     //String string = scanner.nextLine();    // reads strings of one line until enter is entered

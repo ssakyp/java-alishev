@@ -10,13 +10,13 @@ public class Switch {
         System.out.println("You were born.");
         break;
       case 7 :
-        System.out.println("You go to school.")
+        System.out.println("You go to school.");
           break;
       case 18 :
-        System.out.println("You finished school.")
+        System.out.println("You finished school.");
           break;
       default:
-        System.out.println("None of the conditions met")
+        System.out.println("None of the conditions met");
     }
   }
 }

@@ -18,7 +18,7 @@ public class Multidimensional_arrays {
 
     
     int[] numbers = new int[5];
-    Strings[][] strings = new String[2][3];
+    String[][] strings = new String[2][3];
     strings[0][1] = "Hello";
     System.out.println(strings[0][1]);
 

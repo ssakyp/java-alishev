@@ -1,5 +1,5 @@
 public class WhileLoops {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     boolean t = 5==5;
     System.out.println(t);
     int value = 0;

@@ -10,7 +10,6 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person2.name = "Vova";
     person2.age = 20;
-    person2.calculate
     //System.out.println("My name is "+person2.name+", "+"I am "+person2.age+"years old");
     // person2.speak();
     
@@ -45,7 +44,7 @@ class Person{
      System.out.println("My name is "+name+", I am "+age+" years old."); 
     }
   }
-  void sayHell(){
+  void sayHello(){
     System.out.println("Hello");
   }
 }

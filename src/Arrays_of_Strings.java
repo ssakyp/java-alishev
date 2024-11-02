@@ -5,7 +5,7 @@ public class Arrays_of_Strings {
     System.out.println(numbers[0]);
     System.out.println(numbers[1]);
 
-    Strings[] strings = new Strings[3];
+    String[] strings = new String[3];
     strings[0] = "Hello";
     strings[1] = "Bye";
     strings[2] = "Java";
