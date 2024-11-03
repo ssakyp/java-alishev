@@ -14,6 +14,7 @@ public class ClassesAndObjects {
     person2.setNameAndAge(s1, 19);
     // person2.name = "Vova";
     person2.setAge(20);
+    int age2 = person2.getAge();
     // person2.age = 20;
     //System.out.println("My name is "+person2.name+", "+"I am "+person2.age+"years old");
     // person2.speak();
@@ -32,18 +33,40 @@ class Person{
   //Classes can have:
   // 1. Data (fields)
   // 2. Actions, which he can perform (functions)
-  String name;
-  int age;
+  private String name;
+  private int age;
   
+  public void setName(String userName){
+    if(userName.isEmpty()){
+      System.out.println("You enetered an empty string");
+    } else {
+      name = userName;
+    }
+    
+  }
+
+  public String getName(){
+    return name;
+  }
+
+  void setAge(int userAge){
+    if(userAge<0){
+      System.out.println("Invalid age, age needs to be positive. ");
+    } else {
+      age = userAge;
+    }
+    
+  }
+
+  public int getAge(){
+    return age;
+  }
+
+
   void setNameAndAge(String userName, int userAge){
     name = userName;
     age = userAge;
   }
-  
-  void setAge(int userAge){
-    age = userAge;
-  }
-
 
   int calculateYearsToRetirement(){
     int years = 65-age;
@@ -55,6 +78,7 @@ class Person{
      System.out.println("My name is "+name+", I am "+age+" years old."); 
     }
   }
+
   void sayHello(){
     System.out.println("Hello");
   }
