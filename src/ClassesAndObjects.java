@@ -1,15 +1,20 @@
 public class ClassesAndObjects {
   public static void main(String[] args) {
     Person person1 = new Person();
-    person1.name = "Roman";
-    person1.age = 50;
+    person1.setNameAndAge("Roman", 49);
+    // person1.name = "Roman";
+    person1.setAge(50);
+    // person1.age = 50;
     //System.out.println("My name is "+person1.name+", "+"I am "+person1.age+"years old");
     person1.sayHello();
     person1.speak();
     
     Person person2 = new Person();
-    person2.name = "Vova";
-    person2.age = 20;
+    String s1 = "Vova";
+    person2.setNameAndAge(s1, 19);
+    // person2.name = "Vova";
+    person2.setAge(20);
+    // person2.age = 20;
     //System.out.println("My name is "+person2.name+", "+"I am "+person2.age+"years old");
     // person2.speak();
     
@@ -30,10 +35,16 @@ class Person{
   String name;
   int age;
   
-  void setName(String userName){
+  void setNameAndAge(String userName, int userAge){
     name = userName;
+    age = userAge;
   }
   
+  void setAge(int userAge){
+    age = userAge;
+  }
+
+
   int calculateYearsToRetirement(){
     int years = 65-age;
     return years;
