@@ -4,7 +4,7 @@ public class Animal implements Info{
     public int id;
 
     public void sleep(){
-        System.out.println("Animal is sleeping.");
+        System.out.println("src.Animal is sleeping.");
     }
 
     public Animal(int id){

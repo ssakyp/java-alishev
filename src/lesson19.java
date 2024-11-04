@@ -1,3 +1,5 @@
+package src;
+
 public class lesson19 {
     public static void main(String[] args) {
         MyHuman human1 = new MyHuman();

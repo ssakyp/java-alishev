@@ -1,3 +1,5 @@
+package src;
+
 public class lesson20 {
     public static void main(String[] args) {
         Human human1 = new Human("Bob", 22);
@@ -6,10 +8,10 @@ public class lesson20 {
         // // human1.setAge(12);
         // human1.getInfo();
 
-        // Human.description = "Nice";
+        // src.Human.description = "Nice";
         // human1.getAllFields();
-        // Human.getDescription();
-        // Human.description = "Not nice";
+        // src.Human.getDescription();
+        // src.Human.description = "Not nice";
         Human human2 = new Human("Tom", 24);
         human1.getNumberOfPeople();
         
@@ -20,7 +22,7 @@ public class lesson20 {
 }
 
 class Human {
-    // public Human(){
+    // public src.Human(){
     //     System.out.println("Hello from first constructor!");
     // }
     private String name;
@@ -28,12 +30,12 @@ class Human {
     public static String description;
     private static int countPeople;
     public static int x;
-    // public Human(String name){
+    // public src.Human(String name){
     //     System.out.println("Hello from the second constructor");
     //     this.name = name;
     // }
 
-    // public Human(){
+    // public src.Human(){
     //     this.name = "Default name";
     //     this.age = 0;
     // }
