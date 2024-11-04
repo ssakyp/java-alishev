@@ -12,9 +12,9 @@ public class lesson23 {
         // System.out.println(sb.toString());
         // sb.append("my").append(" friend");
         // System.out.println(sb.toString());
-        System.out.printf("%fThis is %s a string, %d",2.2, "NICE",24);
-        System.out.printf("String %10d\n", 534);
-        System.out.printf("String %10d\n", 5);
+        System.out.printf("%fThis is %s a string, %d\n",2.2, "NICE",24);
+        System.out.printf("String %-10d\n", 534);
+        System.out.printf("String %-10d\n", 5);
         System.out.printf("String %10d\n", 5340);
         System.out.printf("String %10d\n", 53400);
         System.out.printf("String %10d\n", 5340000);

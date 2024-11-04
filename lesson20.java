@@ -1,6 +1,7 @@
 public class lesson20 {
     public static void main(String[] args) {
         Human human1 = new Human("Bob", 22);
+        System.out.println(human1);
         // // human1.setName("Tom");
         // // human1.setAge(12);
         // human1.getInfo();
@@ -63,5 +64,9 @@ class Human {
 
     public void getNumberOfPeople(){
         System.out.println(countPeople);
+    }
+
+    public String toString(){
+        return name+", "+age;
     }
 }
