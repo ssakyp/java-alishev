@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class ReadObject {
     public static void main(String[] args) {
-        try {
+        try {   //ObjectInputStream ois = new ObjectInputStream(new FileInputStream("people.bin")))
             FileInputStream fis = new FileInputStream("people.bin");
             ObjectInputStream ois = new ObjectInputStream(fis);
 //            int personCount = ois.readInt();
